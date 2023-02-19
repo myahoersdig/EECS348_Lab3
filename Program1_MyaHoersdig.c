@@ -125,7 +125,7 @@ int main() {
 
     fclose(input_file);
     
-    print_sales_report(sales);
+    print_sales_report(sales); 
     print_summary(sales);
     six_month_average(sales);
     print_sales(sales);
